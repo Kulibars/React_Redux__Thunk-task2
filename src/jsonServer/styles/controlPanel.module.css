@@ -1,0 +1,54 @@
+.controlContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #2196f354;
+  padding: 10px;
+  border-radius: 10px;
+  width: 40vh;
+  margin: 10px auto;
+  height: 17vh;
+}
+
+.taskSearch {
+  margin: 5px auto;
+  width: 200px;
+  border-radius: 9px;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.addTask {
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.addTask input {
+  border-radius: 9px 0px 0px 9px;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.addTask button {
+  width: 40px;
+  background: #03d8b6;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  text-transform: uppercase;
+  color: white;
+  border-left: none;
+  font-size: 12px;
+  font-family: sans-serif;
+  border-style: hidden;
+  border-radius: 0px 9px 9px 0px;
+}
+
+.sorting {
+  margin: 5px auto;
+  width: 220px;
+  border-radius: 9px;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
